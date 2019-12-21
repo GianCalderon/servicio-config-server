@@ -1,5 +1,5 @@
-package com.springboot.configServer;
 
+package com.springboot.configServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
@@ -8,8 +8,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @SpringBootApplication
 public class SpringbootServicioConfigServerApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringbootServicioConfigServerApplication.class, args);
-	}
+  public static void main(String[] args){
+
+    SpringApplication.run(SpringbootServicioConfigServerApplication.class, args);
+
+  }
 
 }
